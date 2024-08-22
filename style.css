@@ -373,7 +373,7 @@ footer .footer-card.special {
         margin-bottom: 10px;
     }
     .product-grid {
-        padding: 10px; /* Reduce el padding en dispositivos móviles */
+        padding: -10px; /* Reduce el padding en dispositivos móviles */
         margin: 0 auto; /* Asegúrate de que el margen esté centrado */
     }
 
@@ -383,7 +383,7 @@ footer .footer-card.special {
     }
 
     #productos {
-        padding-left: 0; /* Elimina el padding a la izquierda */
+        padding-left: -10px; /* Elimina el padding a la izquierda */
         padding-right: 0; /* Elimina el padding a la derecha */
         margin-top: 0; /* Ajusta el margen superior */
     }
