@@ -1,0 +1,136 @@
+:root {
+    --main-bg-color: #f8f9fa;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --yellow-color: #ffc107;
+    --footer-bg-color: #343a40;
+    --footer-text-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--secondary-color);
+    line-height: 1.6;
+}
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+}
+
+header .menu li {
+    margin: 0 1rem;
+}
+
+header .menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #0c75f5;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Specific Section Styles */
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.values-objectives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
